@@ -1,8 +1,11 @@
-#include <iostream>
+#include <cstddef>
+#include <cstdio>
+
+std::size_t NUM = 10000000000;
 
 int main() {
-  for (int i = 0; i < 100; ++i) {
-    std::cout << "Hello World\n";
+  for (unsigned long i = 0; i < NUM; ++i) {
+    printf("Hello World\n");
   }
   return 0;
 }
